@@ -1,0 +1,274 @@
+body {
+  padding-top: 56px;
+  font-family: "Roboto", sans-serif
+}
+
+td{
+  font-size: 14px;
+}
+
+thead{
+  background-color: #e9ecef
+}
+
+.bg1{
+  background-color: #f2f2f2;
+}
+
+.borderButton{
+  border: 2px solid #65994f;
+  color: #65994f;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #f8f9fa;
+}
+
+.borderButton:hover{
+  border: 2px solid #65994f;
+  background-color: #65994f;
+  color: #FFf;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #6d6d6d;
+  box-shadow: 5 0 40px #0000000f;
+}
+
+h4{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #649b4e;
+  font-size: 14px;
+  padding: 4px 0;
+  border-radius: 3px;
+  margin: 20px 0 10px;
+  border-bottom: 1px solid #649b4e;
+  text-transform: uppercase;
+}
+
+.tst{
+  background: url('../img/img01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+span{
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.4;
+  color: gray;
+}
+
+h5, h3{
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+
+.dFlex{
+  display: flex;
+  flex-direction: row;
+  margin: auto auto;
+  width: 400px;
+}
+
+.dFlex img{
+  margin: 0 10px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  color: #c4c4c4;
+  font-size: 22px;
+}
+
+.tst2{
+  background: url('../img/vacas.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tst3{
+  background: url('../img/fazendeiro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tst4{
+  margin: 0;
+  padding: 0;
+}
+
+.floatar{
+  float: right;
+}
+
+.dFlex2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cardHeaderFormatada{
+  border-bottom: none;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.asteristico{
+  font-size: 18px;
+  color: #B22222;
+}
+
+/*formatação pro video - pop-up*/
+
+section img {
+  border: #ddd solid 1px;
+  border-radius: 5px;
+}
+#homeVideo button.btn.btn-default {
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    z-index: 5;
+    color: white;
+}
+
+#playVideo{
+  cursor: pointer;
+}
+
+@media (max-width: 450px)
+{
+  h5,h3{
+    font-size: 15px;
+  }
+}
+
+
+
+
+.circulo {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.circulo-verde {
+  border: 2px solid #57b034;
+  color: #57b034;
+  border-radius: 200px;
+  font-size: 20px;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.circulo-verde p {
+  color: transparent;
+  margin-bottom: -10px;
+}
+
+.circulo-amarelo {
+  border: 2px solid #ef9800;
+  color: #ef9800;
+  border-radius: 200px;
+  font-size: 20px;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.circulo-amarelo p {
+  color: transparent;
+  margin-bottom: -10px;
+}
+
+.circulo-vermelho {
+  border: 2px solid #94000f;
+  color: #94000f;
+  border-radius: 200px;
+  font-size: 20px;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.circulo-vermelho p {
+  color: transparent;
+  margin-bottom: -10px;
+}
+
+.legendas {
+  display: block;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.legendas h6 {
+  margin-bottom: 0;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.legendas h5 {
+  margin-top: 5px;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.4;
+  display: inline-block;
+}
+
+.legendas span {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 5px;
+  margin-right: 3px;
+}
+
+.circulo-verde-pq {
+  border: 2px solid #57b034;
+  display: inline-block;
+}
+
+.circulo-amarelo-pq {
+  border: 2px solid #ef9800;
+  display: inline-block;
+}
+
+.circulo-vermelho-pq {
+  border: 2px solid #94000f;
+  display: inline-block;
+}
